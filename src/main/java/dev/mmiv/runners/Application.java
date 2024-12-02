@@ -13,12 +13,12 @@ import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
 @SpringBootApplication
-public class RunnersApplication {
+public class Application {
 
-	private static final Logger log = LoggerFactory.getLogger(RunnersApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(RunnersApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 	@Bean
